@@ -1,0 +1,16 @@
+{
+    "name": "Destiny-Dev",
+    "type": "project",
+    "homepage": "http://destiny.dev/",
+    "license": "proprietary",
+    "authors": [
+    	{
+    		"name": "Don Wilson",
+    		"homepage": "http://pyxol.com/",
+    		"role": "Developer"
+    	}
+    ],
+    "require": {
+        
+    }
+}

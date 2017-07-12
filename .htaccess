@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	
+	RewriteRule ^([A-Za-z0-9\-_]+)/([A-Za-z0-9\-_]+)/?$		/index.php?_section_=$1&_subsection_=$2		[L,NC,QSA]
+	RewriteRule ^([A-Za-z0-9\-_]+)/?$						/index.php?_section_=$1						[L,NC,QSA]
+	RewriteRule ^$											/index.php?_section_=frontpage				[L,NC,QSA]
+</IfModule>
